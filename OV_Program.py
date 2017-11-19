@@ -58,7 +58,7 @@ def choose_vehicle(vehicles):
     print ""
     list_all_vehicles(vehicles)
     print ""
-    selection = raw_input("What vehicle number would you like to choose? ")
+    selection = raw_input("What vehicle number would you like to choose?: ")
     return vehicles[int(selection) - 1]
 
 
@@ -98,7 +98,7 @@ def delete_vehicle(vehicles):
     print ""
     list_all_vehicles(vehicles)
     print ""
-    selection = raw_input("What vehicle number would you like to choose? ")
+    selection = raw_input("What vehicle number would you like to choose?: ")
     selected_vehicle = vehicles[int(selection) - 1]
 
     vehicles.remove(selected_vehicle)
